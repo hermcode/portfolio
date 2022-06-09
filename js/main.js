@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
     notification.classList.add('notification');
     notification.textContent = ' Correo copiado al portapapeles';
     // icon.classList.add('bx bxs-copy-alt');
-    notification.innerHTML = "<i class='bx bx-check' ></i>" + ' Correo copiado';
+    notification.innerHTML = "<i class='bx bx-check' ></i>" + ' Email copied';
 
     contact.insertBefore(notification, document.querySelector('.span'));
 
